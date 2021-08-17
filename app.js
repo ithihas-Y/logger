@@ -8,7 +8,7 @@ const event = web3.eth.subscribe('logs',{
 })
 
 event.on('data',(data)=>{
-    if(data.topics[2]=='0xB2Cd775b6F63Fc1Bc7F6146309C13699BD38A06D'){
+    if(data.topics[2]=='0x000000000000000000000000b2cd775b6f63fc1bc7f6146309c13699bd38a06d'){
         console.log(data)
     }
 })
